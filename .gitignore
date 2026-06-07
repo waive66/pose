@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 模型文件太大，不上传 GitHub（GitHub 有 100MB 文件限制）
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# IDE
+.idea/
+.vscode/
+
+# 训练输出
+runs/
+data/
+
+# 日志
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 数据集相关（如果有）
+*.zip
+*.tar.gz
+datasets/
